@@ -1,0 +1,362 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300';
+
+body {
+    background-color: white;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: black;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    :hover{
+      text-decoration: none;
+    }
+}
+ul{
+  display: inline-block;
+  li{
+    list-style: none;
+  }
+}
+.btn-buy{
+  color: white;
+  background-color: #c81f3f;
+  border: 0px;
+  border-radius: 20px;
+}
+.btn-lgrey {
+  color: white;
+  background-color: #b2b2b2;
+  border: 0px;
+  border-radius: 0;
+}
+.btn-dark{
+  color: white;
+  background-color: #746f6f;
+  border: 0px;
+  border-radius: 0;
+}
+.btn-more{
+  color: white;
+  background-color: #c81f3f;
+  border: 0px;
+  border-radius: 0;
+}
+.btn-grey{
+  border: 1px solid black;
+  color: black;
+  font-weight: bold;
+  border-radius: 0;
+  background: rgba(255,255,255,1);
+  background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(219,212,219,1) 49%, rgba(189,187,189,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#bdbbbd', GradientType=0 );
+}
+.pink{
+  color: #c81f3f;
+}
+.dark{
+  color: #2f2f2f;
+}
+.h-top {
+  background-color: #edecec;
+    ul {
+        display: inline-block;
+        margin-bottom: 0px;
+        li {
+            list-style: none;
+            float: right;
+            padding-left: 10px;
+            line-height: 45px;
+            a:hover {
+                border-bottom: 1px dashed black;
+                color: black;
+                text-decoration: none;
+            }
+        }
+    }
+}
+.header,#footer{
+  .block-footer,.block_adress,.block_phone{
+    display: table;
+    height: 129px;
+  }
+  .info-footer,.menu-footer{
+    padding: 20px 0 0 0;
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .info-footer{
+    text-align: center;
+    color: #797979;
+    .dark{
+      font-weight: 600;
+    }
+  }
+  .menu-footer{
+    font-size: 12px;
+    ul{
+      padding-left: 0;
+    }
+  }
+    .adress{
+      padding: 20px 0 0 0;
+      display: table-cell;
+      vertical-align: middle;
+      ul{
+        padding-left: 0px;
+        li{
+          color: #b0b0b0;
+          font-size: 12px;
+          font-weight: 400;
+        }
+      }
+    }
+
+    .phone{
+      padding: 20px 0 0 0;
+      display: table-cell;
+      vertical-align: middle;
+      .title{
+        color: #b0b0b0;
+        font-size: 14px;
+        text-align: center;
+        font-weight: normal;
+      }
+      li{
+        color: black;
+        font-size: 18px;
+        font-weight: 400;
+      }
+    }
+
+}
+.header{
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+.block_search{
+  display: table;
+  height: 129px;
+  .search{
+    padding: 20px 0 0 0;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: right;
+    .form-inline{
+      padding: 10px 0;
+    }
+    .form-group,.input-group{
+      width: 100%;
+    }
+    .btn-search {
+      background-color: #ca2e3d;
+      opacity: 1;
+      i{
+        color: white;
+      }
+    }
+    .btn-search:hover {
+      background-color: #ca2e3d;
+      opacity: 0.8;
+    }
+  }
+}
+.price_cart{
+  float: left;
+  line-height: 50px;
+  .info-cart{
+    color: #848181;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .v-price,.c-price{
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+  }
+}
+.cart{
+  img{
+    width: 42px;
+    height: 40px;
+  }
+}
+.menu{
+  border-top: 2px solid #ebebeb;
+  border-bottom: 2px solid #ebebeb;
+}
+#slider-wrapper{
+  .container-fluid {
+    padding: 5px 0 0 0;
+  }
+}
+.nav2{
+  text-align: center;
+  background-color: #edecec;
+  height: 50px;
+  display: table;
+  width: 100%;
+  a{
+    padding-left: 1%;
+    padding-right: 1%;
+    color: #2c3e50;
+    white-space: nowrap;
+    text-decoration: none;
+    &:hover{
+      font-weight: bold;
+      text-decoration: none;
+      border-color: #ca2e3d;
+      border-bottom-style: solid;
+      border-bottom-width: 3px;
+      padding-bottom: 15px;
+      color: black;
+      font-weight: bold;
+    }
+  }
+  .filter {
+    display: table-cell;
+    vertical-align: middle;
+    .active {
+      border-color: #ca2e3d;
+      border-bottom-style: solid;
+      border-bottom-width: 3px;
+      padding-bottom: 13px;
+      color: black;
+      font-weight: bold;
+    }
+  }
+}
+#content{
+  margin: 30px 0;
+}
+.item-wrapper{
+  padding: 0px 0;
+  .item {
+    text-align: center;
+    border: 1px solid #d8d8d8;
+    margin: 10px;
+    padding: 10px;
+    .price{
+      position: relative;
+      display: inline-block;
+      text-align: left;
+      width: 60%;
+      font-weight: 600;
+      padding: 15px 0;
+      .old-price{
+        text-decoration: line-through;
+        position: absolute;
+        top: 2px;
+        font-size: 12px;
+        font-weight: normal;
+      }
+
+
+    }
+  }
+}
+#clients,#about-us,#news {
+  .container-fluid {
+    padding: 5px 0 0 0;
+  }
+  .title_block{
+    text-align: center;
+    background-color: #edecec;
+    height: 50px;
+    h5{
+      text-transform: uppercase;
+      color: black;
+      line-height: 50px;
+      font-weight: bold;
+
+    }
+  }
+}
+#clients {
+  .clients-logo{
+    div{
+      padding: 30px 0;
+    }
+    img{
+      float: left;
+      max-height: 45px;
+      width: auto;
+      padding: 0 10px;
+    }
+  }
+}
+#about-us{
+  margin-bottom: 30px;
+  .description{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 14px;
+    .prime-text{
+      font-weight: bold;
+      padding: 10px 0;
+    }
+  }
+}
+.block-become-client{
+  .row{
+    border: 2px solid #a4a4a6;
+  }
+  .block1{
+    padding: 25px 20px;
+    background-color: #36353a;
+    h2{
+      color: white;
+      text-transform: uppercase;
+      text-shadow: 1px -1px 7px #2c2c2b;
+      span{
+        display: block;
+          color: #c81f3f;
+      }
+    }
+    span{
+      color: #edecec;
+    }
+  }
+}
+#news {
+  .block-news{
+    padding: 30px 0;
+    .item-new {
+      background-color: #f5f5f5;
+      border: 1px solid #b0afaf;
+      padding: 10px 10px;
+      .pink{
+        font-weight: 600;
+      }
+      .footer-item-new{
+        line-height: 32px;
+        margin-bottom: 0px;
+      }
+      .date{
+        font-weight: 600;
+        color: #1b1818;
+      }
+      .btn-more{
+        float: right;
+      }
+    }
+    .all-news-block{
+      margin-top: 30px;
+      text-align: center;
+    }
+  }
+}
+#footer {
+  padding: 30px 0;
+  border-top: 5px solid #ca2e3d;
+  background-color: #edecec;
+  .copyright{
+    color: #7f7d7d;
+    text-align: right;
+  }
+
+}
